@@ -5,8 +5,8 @@ public class SiakadForAbsen07 {
         double nilai, tertinggi = 0, terendah = 100;
         int MahasiswaLulus = 0, MahasiswaTdkLulus = 0;
 
-        for (int i=1; i<=10; i++) {
-            System.out.print("Masukkan nilai Mahasiswa        : ");
+        for (int i=0; i<=10; i++) {
+            System.out.print("Masukkan nilai Mahasiswa ke-"+ (i+1) +": " );
             nilai = sc.nextDouble();
             if (nilai >= 60) {
                 System.out.println("(Lulus)");
