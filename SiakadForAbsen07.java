@@ -5,7 +5,7 @@ public class SiakadForAbsen07 {
         double nilai, tertinggi = 0, terendah = 100;
 
         for (int i=1; i<=10; i++) {
-            System.out.print("MAsukkan nilai Mahasiswa     : ");
+            System.out.print("Masukkan nilai Mahasiswa     : ");
             nilai = sc.nextDouble();
             if (nilai > tertinggi) {
                 tertinggi = nilai;
@@ -14,7 +14,7 @@ public class SiakadForAbsen07 {
                 terendah = nilai;
             }
         }
-         System.out.print("Nilai tertinggi : "+ tertinggi);
-         System.out.print("Nilai terendah  : "+ terendah);
+         System.out.println("Nilai tertinggi : "+ tertinggi);
+         System.out.println("Nilai terendah  : "+ terendah);
     }
 }
