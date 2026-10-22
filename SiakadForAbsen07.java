@@ -3,10 +3,19 @@ public class SiakadForAbsen07 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double nilai, tertinggi = 0, terendah = 100;
+        int MahasiswaLulus = 0, MahasiswaTdkLulus = 0;
 
         for (int i=1; i<=10; i++) {
-            System.out.print("Masukkan nilai Mahasiswa     : ");
+            System.out.print("Masukkan nilai Mahasiswa        : ");
             nilai = sc.nextDouble();
+            if (nilai >= 60) {
+                System.out.println("(Lulus)");
+                MahasiswaLulus ++;
+
+            } else {
+                System.out.println("(Tidak Lulus)");
+                MahasiswaTdkLulus ++;
+            }
             if (nilai > tertinggi) {
                 tertinggi = nilai;
             }
@@ -14,7 +23,9 @@ public class SiakadForAbsen07 {
                 terendah = nilai;
             }
         }
-         System.out.println("Nilai tertinggi : "+ tertinggi);
-         System.out.println("Nilai terendah  : "+ terendah);
+         System.out.println("Nilai tertinggi                   : "+ tertinggi);
+         System.out.println("Nilai terendah                    : "+ terendah);
+         System.out.println("Jumlah Mahasiswa yang lulus       : "+ MahasiswaLulus);
+         System.out.println("Jumlah Mahasiswa yang tidak lulus : "+ MahasiswaTdkLulus);
     }
 }
