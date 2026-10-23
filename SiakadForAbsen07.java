@@ -6,7 +6,7 @@ public class SiakadForAbsen07 {
         int MahasiswaLulus = 0, MahasiswaTdkLulus = 0;
 
         for (int i=0; i<=10; i++) {
-            System.out.print("Masukkan nilai Mahasiswa ke-"+ (i+1) +": " );
+            System.out.print("Masukkan nilai Mahasiswa ke-"+ i +": " );
             nilai = sc.nextDouble();
             if (nilai >= 60) {
                 System.out.println("(Lulus)");
