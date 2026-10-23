@@ -2,16 +2,15 @@ import java.util.Scanner;
 public class SiakadForAbsen07 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        double nilai, tertinggi = 0, terendah = 100;
+        double nilai, tertinggi = 100, terendah = 0;
         int MahasiswaLulus = 0, MahasiswaTdkLulus = 0;
 
-        for (int i=0; i<=10; i++) {
-            System.out.print("Masukkan nilai Mahasiswa ke-"+ (i+1) +": " );
+        for (int i=1; i<=10; i++) {
+            System.out.print("Masukkan nilai Mahasiswa ke-"+ i +": " );
             nilai = sc.nextDouble();
             if (nilai >= 60) {
                 System.out.println("(Lulus)");
                 MahasiswaLulus ++;
-
             } else {
                 System.out.println("(Tidak Lulus)");
                 MahasiswaTdkLulus ++;
