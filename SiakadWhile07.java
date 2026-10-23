@@ -18,19 +18,19 @@ public class SiakadWhile07 {
                 continue;
             }
             if (80 < nilai && nilai <= 100) {
-                System.out.print("Nilai mahasiswa ke-"+ (i+1) +"adalah A");
+                System.out.println("Nilai mahasiswa ke-"+ (i+1) +" adalah A");
             } else if (73 < nilai && nilai <= 80) {
-                System.out.print("Nilai mahasiswa ke-"+ (i+1) +"adalah B+");
+                System.out.println("Nilai mahasiswa ke-"+ (i+1) +" adalah B+");
             } else if (65 < nilai && nilai <= 73) {
-                System.out.print("Nilai mahasiswa ke-"+ (i+1) +"adalah B");
+                System.out.println("Nilai mahasiswa ke-"+ (i+1) +" adalah B");
             } else if (60 < nilai && nilai  <= 65) {
-                System.out.print("Nilai mahasiswa ke-"+ (i+1) +"adalah C+");
+                System.out.println("Nilai mahasiswa ke-"+ (i+1) +" adalah C+");
             } else if (50 < nilai && nilai <= 60) {
-                System.out.println("Nilai mahasiswa ke-"+ (i+1) +"adalah C");
+                System.out.println("Nilai mahasiswa ke-"+ (i+1) +" adalah C");
             } else if (35 < nilai && nilai <= 50) {
-                System.out.println("Nilai mahasiswa ke-"+ (i+1) +"adalah D");
+                System.out.println("Nilai mahasiswa ke-"+ (i+1) +" adalah D");
             } else {
-                System.out.println("Nilai mahasiswa ke-"+ (i+1) +"adalah E");
+                System.out.println("Nilai mahasiswa ke-"+ (i+1) +" adalah E");
             }
             i++;
         }
