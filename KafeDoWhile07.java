@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class KafeDoWhile07 {
@@ -12,7 +11,7 @@ public class KafeDoWhile07 {
             System.out.print("Masukkan nama pelanggan (ketik 'batal' untuk keluar): ");
             namaPelanggan = sc.nextLine();
 
-            if (namaPelanggan.equalsIgnoreCase("bataal")) {
+            if (namaPelanggan.equalsIgnoreCase("batal")) {
                 System.out.println("Transaksi dibatalkan.");
                 break;
             }
